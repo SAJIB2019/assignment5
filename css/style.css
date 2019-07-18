@@ -1,0 +1,393 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.container {
+	width: 1140px;
+	margin: 15px auto;
+}
+header {
+    width: 100%;
+    background-color: #701686;
+    float: left;
+    padding: 10px 0px;
+}
+
+.logo {
+	width: 30%;
+	float: left;
+
+}
+.logo img {
+	display: block;
+	max-width: 100%;
+
+}
+
+.menu {
+	width: 70%;
+	float: left;
+
+}
+nav ul {
+	list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    margin: 10px 51px;
+    transition: 0.4s ease-in-out;
+}
+nav ul li:hover {
+	background-color: green;
+}
+nav ul li a {
+	text-decoration: none;
+	color: #fff;
+}
+.header-content {
+    width: 600px;
+    padding-top: 90px;
+    padding-bottom: 16px;
+    text-align: center;
+    margin: 0 auto;
+}
+.header-content h2 {
+    color: white;
+    line-height: 40px;
+    font-size: 33px;
+}
+.btn {
+    margin: 30px;
+    background: #ef8326;
+    padding: 10px 10px;
+    border: none;
+    font-size: 20px;
+    transition: 0.4s ease-in-out;
+}
+.btn:hover {
+    box-shadow: 0px 3px 0px #9a6009;
+}
+.service {
+    background: #17C2A4;
+    width: 100%;
+    float: left;
+}
+.service-title {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+.service-title h3 {
+	padding: 15px 0;
+}
+.underline {
+    border-bottom: 1px solid black;
+    display: block;
+    width: 50px;
+    margin: 0 auto;
+}
+.service-title p {
+	padding: 10px 0;
+}
+.service-item{
+	width: 100%;
+	float: left;
+}
+.item-one {
+    width: 22%;
+    float: left;
+    margin: 50px 15px;
+    text-align: center;
+    color: white;
+}
+h4 {
+    padding: 15px;
+}
+
+p {
+    padding: 12px;
+}
+.item-one img {
+	 
+}
+.team {
+    width: 100%;
+    float: left;
+    background-color: #D3D3D3;
+}
+.team-title {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+.team-title h3 {
+    padding: 10px 0;
+}
+.underline-two {
+    border: 1px solid black;
+    display: block;
+    width: 50px;
+    margin: 0 auto;
+}
+.team-title p {
+    padding: 10px 0px;
+}
+
+.team-member {
+    width: 100%;
+    float: left;
+}
+.team-one {
+    width: 22%;
+    float: left;
+    margin: 25px 15px;
+    text-align: center;
+    color: #141415;
+}
+.team-one h3 {
+    padding-top: 10px;
+}
+.team-one h4 {
+    color: blue;
+}
+.team-one p {
+	
+}
+
+
+.team-one img {
+    display: block;
+    max-width: 100%;
+}
+.skill {
+    width: 100%;
+    float: left;
+    background-color: #FFFFFF;
+}
+.skill-title {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+}
+.skill-title h3 {
+    padding: 10px;
+}
+.skill-title p {
+
+}
+.underline-three {
+    border: 1px solid black;
+    width: 50px;
+    display: block;
+    margin: 0 auto;
+}
+.skill-amount {
+    width: 100%;
+    float: left;
+}
+.skill-one {
+    width: 22%;
+    float: left;
+    margin: 50px 15px;
+    text-align: center;
+    color: black;
+}
+.skill-one h5 {
+    padding : 10px;
+}
+.skill-one img {
+
+}
+.portfolio {
+    width: 100%;
+    float: left;
+    background-color: #FFDD99;
+}
+.portfolio-title {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+}
+.portfolio-title h3 {
+    padding : 10px;
+}
+.underline-four {
+    border: 1px solid black;
+    display: block;
+    width: 50px;
+    margin: 0 auto;
+}
+.portfolio-title p {
+
+}
+.portfolio-item {
+    width: 100%;
+    float: left;
+}
+ .portfolio-item-one {
+   width: 100%;
+   float: left;
+ }
+ .portfolio-item-two {
+   width: 100%;
+   float: left;
+ }
+.portfolio-one {
+    width: 47%;
+    float: left;
+    margin: 15px 15px;
+    text-align: center;
+    color: black;
+}
+.portfolio-one h6 {
+    padding: 10px;
+}
+.portfolio-item-one img {
+    display: block;
+    max-width: 100%;
+}
+.btn-two {
+    margin: 20px 480px;
+    background: #30D0C1;
+    padding: 10px 10px;
+    border: none;
+    font-size: 20px;
+    transition: 0.4s ease-in-out;
+}
+.btn-two:hover{
+    box-shadow: 0px 3px 0px #009688;
+}
+.about-us {
+    width: 100%;
+    float: left;
+    background-color: #D74680;
+}
+.about-us-title {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    color: beige;
+}
+.about-us-title h2 {
+    padding: 10px;
+}
+span.underline-five {
+    border: 1px solid black;
+    width: 78px;
+    display: block;
+    margin: 0 auto;
+}
+.about-us-title p {
+    padding-bottom: 50px;
+}
+
+.about-us-member {
+    width: 100%;
+    float: left;
+    margin-bottom: 60px;
+}
+.part-one {
+	width: 100%;
+	float: left;
+}
+
+.image-one {
+
+width: 20%;
+
+float: left;
+}
+.image-one img {
+    display: block;
+    width: 100%;
+}
+.image-two {
+
+width: 20%;
+
+float: left;
+}
+.image-two img {
+    display: block;
+    width: 100%;
+}
+.detail-one {
+    width: 25%;
+    float: left;
+    padding: 26px;
+}
+.detail-two {
+     width: 25%;
+    float: left;
+    padding: 26px;
+}
+.part-two {
+    width: 100%;
+    float: left;
+}
+.email {
+    width: 100%;
+    float: left;
+    background-color: #3C5499;
+}
+.email-title {
+    width: 601px;
+    margin: 0 auto;
+    text-align: center;
+    color: beige;
+}
+.email-title h1 {
+    padding: 10px;
+}
+.underline-six {
+    border: 1px solid beige;
+    width: 60px;
+    margin: 0 auto;
+    display: block;
+}
+.email-title p {
+    padding: 10px;
+}
+.email-box {
+    width: 601px;
+    margin: 0 auto;
+    padding: 25px;
+}
+.name-title {
+    width: 47%;
+    padding: 5px;
+    background: #0D3252;
+    border: navajowhite;
+    margin-bottom: 8px;
+}
+.email-name {
+    width: 47%;
+    padding: 5px;
+    background: #0D3252;
+    border: navajowhite;
+    margin-bottom: 8px;
+}
+.text {
+    border: navajowhite;
+    width: 589px;
+    height: 80px;
+    text-align: start;
+    background: #0D3252;
+}
+.btn-three {
+    margin: 20px 205px;
+    background: #30D0C1;
+    padding: 10px 10px;
+    border: none;
+    font-size: 20px;
+    transition: 0.4s ease-in-out;
+}
+.btn-three:hover {
+    box-shadow: 0px 3px 0px #009688;
+}
+footer {
+    background-color: #344B8E;
+}
